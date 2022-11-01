@@ -3,31 +3,7 @@
   "version": "0.0.7",
   "description": "One-sample Kolmogorov-Smirnov goodness-of-fit test.",
   "license": "Apache-2.0",
-  "author": {
-    "name": "The Stdlib Authors",
-    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
-  },
-  "contributors": [
-    {
-      "name": "The Stdlib Authors",
-      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
-    }
-  ],
-  "main": "./lib",
-  "directories": {
-    "benchmark": "./benchmark",
-    "doc": "./docs",
-    "example": "./examples",
-    "lib": "./lib",
-    "test": "./test"
-  },
-  "types": "./docs/types",
-  "scripts": {
-    "test": "make test",
-    "test-cov": "make test-cov",
-    "examples": "make examples",
-    "benchmark": "make benchmark"
-  },
+  "main": "./index.js",
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -36,84 +12,6 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
-  "dependencies": {
-    "@stdlib/array-float64": "^0.0.x",
-    "@stdlib/assert-has-own-property": "^0.0.x",
-    "@stdlib/assert-is-boolean": "^0.0.x",
-    "@stdlib/assert-is-function": "^0.0.x",
-    "@stdlib/assert-is-nan": "^0.0.x",
-    "@stdlib/assert-is-number": "^0.0.x",
-    "@stdlib/assert-is-number-array": "^0.0.x",
-    "@stdlib/assert-is-plain-object": "^0.0.x",
-    "@stdlib/assert-is-positive-integer": "^0.0.x",
-    "@stdlib/assert-is-string": "^0.0.x",
-    "@stdlib/assert-is-typed-array-like": "^0.0.x",
-    "@stdlib/math-base-special-binomcoefln": "^0.0.x",
-    "@stdlib/math-base-special-exp": "^0.0.x",
-    "@stdlib/math-base-special-floor": "^0.0.x",
-    "@stdlib/math-base-special-ln": "^0.0.x",
-    "@stdlib/math-base-special-pow": "^0.0.x",
-    "@stdlib/math-base-special-roundn": "^0.0.x",
-    "@stdlib/math-base-special-sqrt": "^0.0.x",
-    "@stdlib/stats-base-dists-arcsine-cdf": "^0.0.x",
-    "@stdlib/stats-base-dists-beta-cdf": "^0.0.x",
-    "@stdlib/stats-base-dists-betaprime-cdf": "^0.0.x",
-    "@stdlib/stats-base-dists-cauchy-cdf": "^0.0.x",
-    "@stdlib/stats-base-dists-chi-cdf": "^0.0.x",
-    "@stdlib/stats-base-dists-chisquare-cdf": "^0.0.x",
-    "@stdlib/stats-base-dists-cosine-cdf": "^0.0.x",
-    "@stdlib/stats-base-dists-erlang-cdf": "^0.0.x",
-    "@stdlib/stats-base-dists-exponential-cdf": "^0.0.x",
-    "@stdlib/stats-base-dists-f-cdf": "^0.0.x",
-    "@stdlib/stats-base-dists-frechet-cdf": "^0.0.x",
-    "@stdlib/stats-base-dists-gamma-cdf": "^0.0.x",
-    "@stdlib/stats-base-dists-gumbel-cdf": "^0.0.x",
-    "@stdlib/stats-base-dists-invgamma-cdf": "^0.0.x",
-    "@stdlib/stats-base-dists-kumaraswamy-cdf": "^0.0.x",
-    "@stdlib/stats-base-dists-laplace-cdf": "^0.0.x",
-    "@stdlib/stats-base-dists-levy-cdf": "^0.0.x",
-    "@stdlib/stats-base-dists-logistic-cdf": "^0.0.x",
-    "@stdlib/stats-base-dists-lognormal-cdf": "^0.0.x",
-    "@stdlib/stats-base-dists-normal-cdf": "^0.0.x",
-    "@stdlib/stats-base-dists-pareto-type1-cdf": "^0.0.x",
-    "@stdlib/stats-base-dists-rayleigh-cdf": "^0.0.x",
-    "@stdlib/stats-base-dists-t-cdf": "^0.0.x",
-    "@stdlib/stats-base-dists-triangular-cdf": "^0.0.x",
-    "@stdlib/stats-base-dists-uniform-cdf": "^0.0.x",
-    "@stdlib/stats-base-dists-weibull-cdf": "^0.0.x",
-    "@stdlib/stats-base-max": "^0.0.x",
-    "@stdlib/error-tools-fmtprodmsg": "^0.0.x",
-    "@stdlib/types": "^0.0.x",
-    "@stdlib/utils-define-read-only-property": "^0.0.x"
-  },
-  "devDependencies": {
-    "@stdlib/assert-contains": "^0.0.x",
-    "@stdlib/assert-is-object": "^0.0.x",
-    "@stdlib/bench": "^0.0.x",
-    "@stdlib/constants-float64-eps": "^0.0.x",
-    "@stdlib/math-base-special-abs": "^0.0.x",
-    "@stdlib/random-base-normal": "^0.0.x",
-    "@stdlib/random-base-randu": "^0.0.x",
-    "@stdlib/random-base-uniform": "^0.0.x",
-    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
-    "istanbul": "^0.4.1",
-    "tap-spec": "5.x.x"
-  },
-  "engines": {
-    "node": ">=0.10.0",
-    "npm": ">2.7.0"
-  },
-  "os": [
-    "aix",
-    "darwin",
-    "freebsd",
-    "linux",
-    "macos",
-    "openbsd",
-    "sunos",
-    "win32",
-    "windows"
-  ],
   "keywords": [
     "stdlib",
     "stdmath",
