@@ -82,7 +82,7 @@
     "@stdlib/stats-base-dists-uniform-cdf": "^0.0.x",
     "@stdlib/stats-base-dists-weibull-cdf": "^0.0.x",
     "@stdlib/stats-base-max": "^0.0.x",
-    "@stdlib/string-format": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x",
     "@stdlib/types": "^0.0.x",
     "@stdlib/utils-define-read-only-property": "^0.0.x"
   },
