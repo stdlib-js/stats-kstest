@@ -24,38 +24,30 @@ limitations under the License.
 
 > One-sample Kolmogorov-Smirnov goodness-of-fit test.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-kstest
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-kstest = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kstest@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var kstest = require( 'path/to/vendor/umd/stats-kstest/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-kstest@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.kstest;
-})();
-</script>
+var kstest = require( '@stdlib/stats-kstest' );
 ```
 
 #### kstest( x, y\[, ...params]\[, opts] )
@@ -177,14 +169,9 @@ out = kstest( x, 'uniform', 0.0, 1.0, {
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-kstest@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {.factory;
+```javascript
+var kstest = require( '@stdlib/stats-kstest' );
+var factory = require( '@stdlib/random-base-normal' ).factory;
 
 var rnorm;
 var table;
@@ -229,11 +216,6 @@ table = out.print();
 
     Test Decision: Fail to reject null in favor of alternative at 5% significance level
 */
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -274,7 +256,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
