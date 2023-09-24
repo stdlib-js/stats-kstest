@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-kstest = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kstest@umd/browser.js' )
+kstest = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kstest@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var kstest = require( 'path/to/vendor/umd/stats-kstest/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-kstest@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-kstest@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -192,7 +192,7 @@ out = kstest( x, 'uniform', 0.0, 1.0, {
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-kstest@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-kstest@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {.factory;
