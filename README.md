@@ -35,30 +35,14 @@ limitations under the License.
 
 > One-sample Kolmogorov-Smirnov goodness-of-fit test.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/stats-kstest
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var kstest = require( '@stdlib/stats-kstest' );
+import kstest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kstest@deno/mod.js';
 ```
 
 #### kstest( x, y\[, ...params]\[, opts] )
@@ -67,7 +51,7 @@ For a numeric [array][mdn-array] or [typed array][mdn-typed-array]
 `x`, a Kolmogorov-Smirnov goodness-of-fit is computed for the null hypothesis that the values of `x` come from the distribution specified by `y`. `y` can be either a [string][mdn-string] with the name of the distribution to test against, or a [function][mdn-function]. In the latter case, `y` is expected to be the cumulative distribution function (CDF) of the distribution to test against, with its first parameter being the value at which to evaluate the CDF and the remaining parameters constituting the parameters of the distribution. The parameters of the distribution are passed as additional arguments after `y` from `kstest` to the chosen CDF. The function returns an object holding the calculated test statistic `statistic` and the `pValue` of the test.
 
 ```javascript
-var factory = require( '@stdlib/random-base-uniform' ).factory;
+var factory = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform' ).factory;
 var runif;
 var out;
 var x;
@@ -133,7 +117,7 @@ console.log( out.print() );
 By default, the function tests the null hypothesis that the true distribution of `x` and the reference distribution `y` are equal to each other against the alternative that they are not equal. To carry out a one-sided hypothesis test, set the `alternative` option to either `less` or `greater`.
 
 ```javascript
-var factory = require( '@stdlib/random-base-uniform' ).factory;
+var factory = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform' ).factory;
 var runif;
 var out;
 var x;
@@ -181,8 +165,8 @@ out = kstest( x, 'uniform', 0.0, 1.0, {
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var kstest = require( '@stdlib/stats-kstest' );
-var factory = require( '@stdlib/random-base-normal' ).factory;
+import kstest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kstest@deno/mod.js';
+var factory = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal' ).factory;
 
 var rnorm;
 var table;
@@ -250,7 +234,7 @@ table = out.print();
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
