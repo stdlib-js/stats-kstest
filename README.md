@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import kstest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kstest@deno/mod.js';
+import kstest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kstest@v0.2.1-deno/mod.js';
 ```
 
 #### kstest( x, y\[, ...params]\[, opts] )
@@ -165,7 +165,7 @@ out = kstest( x, 'uniform', 0.0, 1.0, {
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import kstest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kstest@deno/mod.js';
+import kstest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kstest@v0.2.1-deno/mod.js';
 var factory = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal' ).factory;
 
 var rnorm;
