@@ -48,7 +48,7 @@
     "@stdlib/assert-is-positive-integer": "^0.2.2",
     "@stdlib/assert-is-string": "^0.2.2",
     "@stdlib/assert-is-typed-array-like": "^0.2.2",
-    "@stdlib/math-base-special-binomcoefln": "^0.2.1",
+    "@stdlib/math-base-special-binomcoefln": "^0.2.2",
     "@stdlib/math-base-special-exp": "^0.2.4",
     "@stdlib/math-base-special-floor": "^0.2.3",
     "@stdlib/math-base-special-ln": "^0.2.4",
