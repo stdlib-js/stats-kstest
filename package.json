@@ -82,7 +82,7 @@
     "@stdlib/stats-base-dists-uniform-cdf": "^0.2.2",
     "@stdlib/stats-base-dists-weibull-cdf": "^0.2.2",
     "@stdlib/stats-strided-max": "github:stdlib-js/stats-strided-max#main",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
     "@stdlib/types": "^0.4.3",
     "@stdlib/utils-define-read-only-property": "^0.2.2",
     "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
