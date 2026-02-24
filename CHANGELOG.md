@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-02-24)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`b01344e`](https://github.com/stdlib-js/stdlib/commit/b01344ed3b330781f2fc55fb1cfd652cae06d4f1) - **bench:** refactor to use string interpolation in `stats/kstest` [(#10457)](https://github.com/stdlib-js/stdlib/pull/10457) _(by Kamal Singh Rautela)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Kamal Singh Rautela
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.3">
 
 ## 0.2.3 (2026-02-08)
