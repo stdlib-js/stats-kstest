@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-08)
+## Unreleased (2026-04-27)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#11750](https://github.com/stdlib-js/stdlib/issues/11750)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,7 @@
 
 <details>
 
+-   [`8775511`](https://github.com/stdlib-js/stdlib/commit/8775511193f94d03d28e2df4cdc2c5423ee73f03) - **chore:** fix JavaScript lint errors  [(#11794)](https://github.com/stdlib-js/stdlib/pull/11794) _(by Ved Prakash Arya, Athan Reines)_
 -   [`bd60a20`](https://github.com/stdlib-js/stdlib/commit/bd60a209ca4b0989663edbbc591bc7da80294827) - **build:** update R version to 4.2.0 in lint workflows [(#11262)](https://github.com/stdlib-js/stdlib/pull/11262) _(by Mara Averick)_
 -   [`b01344e`](https://github.com/stdlib-js/stdlib/commit/b01344ed3b330781f2fc55fb1cfd652cae06d4f1) - **bench:** refactor to use string interpolation in `stats/kstest` [(#10457)](https://github.com/stdlib-js/stdlib/pull/10457) _(by Kamal Singh Rautela)_
 
@@ -25,10 +38,12 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Kamal Singh Rautela
 -   Mara Averick
+-   Ved Prakash Arya
 
 </section>
 
