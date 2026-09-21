@@ -90,6 +90,7 @@
   "devDependencies": {
     "@stdlib/array-base-zeros": "^0.2.3",
     "@stdlib/assert-contains": "^0.3.1",
+    "@stdlib/assert-is-almost-same-value": "^0.1.1",
     "@stdlib/assert-is-object": "^0.2.3",
     "@stdlib/constants-float64-eps": "^0.2.3",
     "@stdlib/math-base-special-abs": "^0.2.3",

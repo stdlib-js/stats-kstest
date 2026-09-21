@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-13)
+## Unreleased (2026-09-21)
 
 <section class="issues">
 
@@ -24,6 +24,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`66f0fb0`](https://github.com/stdlib-js/stdlib/commit/66f0fb0ea182df11821c6dba3d46bf5453ec194d) - **test:** migrate `stats/kstest` to ULP-based assertions [(#15389)](https://github.com/stdlib-js/stdlib/pull/15389) _(by Athan Reines)_
 -   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
 -   [`8775511`](https://github.com/stdlib-js/stdlib/commit/8775511193f94d03d28e2df4cdc2c5423ee73f03) - **chore:** fix JavaScript lint errors  [(#11794)](https://github.com/stdlib-js/stdlib/pull/11794) _(by Ved Prakash Arya, Athan Reines)_
 -   [`bd60a20`](https://github.com/stdlib-js/stdlib/commit/bd60a209ca4b0989663edbbc591bc7da80294827) - **build:** update R version to 4.2.0 in lint workflows [(#11262)](https://github.com/stdlib-js/stdlib/pull/11262) _(by Mara Averick)_
